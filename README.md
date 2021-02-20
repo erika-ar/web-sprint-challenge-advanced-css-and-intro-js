@@ -24,9 +24,21 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
+
+Web accessibility is the ability to access a website and consume the content as intended regardless of disability or impairment. 
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+Using 1) semantic HTML allows screen readers to properly read out website content to those with visual impairments so that they may, for example, browse a website by heading thanks to h1-h6 tags and find what they need quickly. In adittion, if they cannot see the images on a webpage, filling out alternative captions for your images using 2) alt attributes gives them an image description. Finally, a large population of people are colorblind. Offering the colorblind 3) symbols or logos instead of relying solely on font color will help them understand the content better. For example, instead of solely changing the font color to red when a user inputs the incorrect password, you could add an error symbol so that they understand.
+
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+Variables are used to store data values of different sizes that you can change later on. You can think of it like a persons name. You can assign a person a name and change it later on by giving them a nickname, or you can never change it at all. Here a person would be your variable and the name you give them the data you assign to that variable.
+
 4. What is the purpose of using functions in code?
+
+Functions help coders perform a specific task by gathering a bunch of steps required for that task and turning it into one, keeping our code DRY.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -48,8 +60,8 @@ NOTE: Tests will run for the JavaScript portion of this challenge only
 
 *Before you jump in, take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built. During this time, [Review the provided design files](design/). You have been provided all content necessary in the [index.html file](index.html) and basic styling in the [index.css file](css/index.css).*
 
-* [ ] Add a viewport meta tag to the head of your index.html page.
-* [ ] Add responsive breakpoints to your code for 500px such that your styles match the [mobile design file](design/Mobile.png).
+* [x] Add a viewport meta tag to the head of your index.html page.
+* [x] Add responsive breakpoints to your code for 500px such that your styles match the [mobile design file](design/Mobile.png).
 
 ### Task 2b: Minimum Viable Product - JavaScript
 
