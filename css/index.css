@@ -15,6 +15,7 @@ time, mark, audio, video {
 margin: 0;  
 padding: 0;  
 border: 0;  
+box-sizing: border-box;
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
@@ -133,4 +134,82 @@ button:hover{
 }
 .artist img{
     width:100%;
+}
+
+/* Media Queries for 500px Mobile Devices */
+
+/* Header Section */
+@media (max-width: 500px) {
+    /* Makes the nav spaced out */
+    nav {
+        margin: 10% 10% auto;
+        width: 60%;
+    }
+/* Makes it smaller */
+    nav a {
+        font-size: 2rem;
+        height: 30%;
+      }
+    /* Makes the | | borders gray and thinner*/
+      nav span {
+        border-left: 0.2rem solid rgb(149, 149, 149);
+      }
+    
+      /* Title Section */
+    
+      h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        font-weight: bold;
+      }
+    
+      .title-container div {
+        height: 40vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 210%;
+        width: 100%;
+      }
+    /* Tried making the colors match but idk */
+      /* .title-container img{
+        filter:contrast(60%)
+      } */
+    
+      button {
+        font-size: 0.5 rem;
+        border-radius: 0;
+        flex-grow: 0.01
+      }
+    
+      /* Artist container */
+    
+      .artists-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .artist img {
+        height: 20vh;
+        width: 40%;
+      }
+    
+      .artist a {
+        font-size: 1.4rem;
+      }
+    
+      .artist {
+        width: 100%;
+      }
+    
+      .bio {
+        width: 70%;
+        font-size: 1rem;
+        height: 50%;
+        text-align: center;
+        margin-left: 15%;
+        font-weight: bolder;
+        line-height: 100%
+      }
 }
