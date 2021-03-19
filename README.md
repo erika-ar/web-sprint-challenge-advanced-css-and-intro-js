@@ -29,9 +29,8 @@ It is important to make your website accessible so that anyone can use it and en
 You can 1) use semantic HTML ex: fill out alt attributes for screen readers 2) compress images for quick load times 3) use high contrast colors ex: slightly gray background, stay away from red and green.
 3. How would you explain the concept of a variable to someone new to programming?
 A container used to store data values. For ex: let name = erika. "name" is the variable, "let" is a keyword used to declare that, and "erika" the data value.
-
 4. What is the purpose of using functions in code?
-
+Functions are like mini programs that help us solve a task. You can make a function reusable.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
